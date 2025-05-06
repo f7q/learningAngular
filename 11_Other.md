@@ -8,7 +8,12 @@ vscode
 - Prettier – Code formatter → コードの整形を自動化し、統一感を持たせる
 - NX Console → Angularのモノレポ管理に便利なツール
 - angular2-switcher → `.html` ⇄ `.ts` の切り替えをショートカットで実行
-- Path Intellisense → ファイルパス補完を強化
+- Path Intellisense → ファイルパス補完を強化し、入力ミスを防ぐ
+- ESLint → TypeScriptのコード品質を向上させる静的解析ツール
+- Debugger for Chrome → TypeScriptのデバッグを簡単に行える拡張機能
+- Jest → TypeScriptのテスト環境を強化するユニットテスト用プラグイン
+- TypeScript Hero → 型情報の補完やインポートの管理を簡単にする
+- Pretty TypeScript Errors → TypeScriptのエラーメッセージを見やすく整形
 
 # QA
 angular 画面追加したけど表示されません、何かコマンド実施すれば解決する？
