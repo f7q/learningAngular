@@ -158,4 +158,11 @@ type Partial<T> = {
 ## 10. 宣言ファイル (.d.ts)
 - 概要: JavaScript のライブラリや既存のコードに対して、型情報を付与するために宣言ファイルを利用できます。これにより、JavaScript 由来のコードも TypeScript の型安全性で取り扱うことができます。
 
+## 11. その他メモ
+変数名に!があるときはNon-null assertion operator と呼ばれ、TypeScript において 「この変数は null や undefined ではない」 ということをコンパイラに明示するための記述である。
+```
+- private myValue!: undefined | string;
++ private myValue!: string; // Non-null assertion operator を使用
+```
+
  
